@@ -71,3 +71,4 @@ Traceback (most recent call last):
   File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
 NameError: name 'posts' is not defined
 2020-07-02 23:38:04,659 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-03 08:29:14,098 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
