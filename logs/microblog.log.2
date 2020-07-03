@@ -1,4 +1,68 @@
-2020-07-02 23:25:26,713 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
+2020-07-02 21:58:05,061 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-02 22:26:02,048 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-02 22:26:21,132 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-02 22:50:55,186 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-02 22:52:58,551 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-02 22:54:33,858 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-02 23:19:46,370 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
+2020-07-02 23:19:49,485 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
+    return render_template('user.html', user=user, posts=posts, form=form)
+NameError: name 'posts' is not defined
+2020-07-02 23:19:56,691 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
+    return render_template('user.html', user=user, posts=posts, form=form)
+NameError: name 'posts' is not defined
+2020-07-02 23:19:59,721 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
+    return render_template('user.html', user=user, posts=posts, form=form)
+NameError: name 'posts' is not defined
+2020-07-02 23:21:37,292 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
 Traceback (most recent call last):
   File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 2447, in wsgi_app
     response = self.full_dispatch_request()
@@ -16,7 +80,7 @@ Traceback (most recent call last):
     return func(*args, **kwargs)
   File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
 NameError: name 'posts' is not defined
-2020-07-02 23:25:28,850 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
+2020-07-02 23:21:40,954 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
 Traceback (most recent call last):
   File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 2447, in wsgi_app
     response = self.full_dispatch_request()
@@ -34,40 +98,3 @@ Traceback (most recent call last):
     return func(*args, **kwargs)
   File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
 NameError: name 'posts' is not defined
-2020-07-02 23:25:44,920 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
-Traceback (most recent call last):
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
-NameError: name 'posts' is not defined
-2020-07-02 23:26:39,510 ERROR: Exception on /user/jenny1 [GET] [in C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py:1892]
-Traceback (most recent call last):
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask\app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\jfeng\AppData\Local\Continuum\miniconda3\envs\datascience\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Users\jfeng\github\flask_mega_project\app\routes.py", line 74, in user
-NameError: name 'posts' is not defined
-2020-07-02 23:38:04,659 INFO: Microblog startup [in C:\Users\jfeng\github\flask_mega_project\app\__init__.py:45]
